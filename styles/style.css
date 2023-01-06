@@ -97,3 +97,47 @@ header{
 .failures-content li i{
     color: green;
 }
+/* my plans section styles */
+.plan-contents{
+    display: flex;
+    justify-content: space-around;
+}
+.plan-item{
+    text-align: center;
+}
+.plan-item .title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.plan-item .description{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+.mindset{
+    display: flex;
+    align-items: center;
+    background-image: url(../images/watch.png),linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 300px;
+    margin-top: 120px;
+    border-radius: 5px;
+}
+.mindset-content{
+    padding: 0 475px 0 65px;
+}
+.mindset-title{
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+}
+.mindset-content .btn-primary{
+    background-color: #ffffff;
+    color: #F15B22;
+}

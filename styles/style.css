@@ -35,7 +35,6 @@ header{
     background-image: url(../images/banner/banner2.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: gray;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -138,6 +137,60 @@ header{
     color: #ffffff;
 }
 .mindset-content .btn-primary{
+    background-color: #ffffff;
+    color: #F15B22;
+}
+/* footer */
+footer{
+    background-color: #151414;
+    margin-top: 130px;
+}
+.footer-section{
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 130px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.future{
+    padding-right: 330px;
+}
+.future .section-title,.future .section-description{
+    color: #ffffff;
+    text-align: left;
+}
+.future ul{
+    padding: 0;
+}
+.future li{
+    list-style: none;
+    margin-bottom: 16px;
+    color: #ffffff;
+}
+.social-icons img{
+    margin-right: 10px;
+}
+
+.subscribe .title{
+    font-weight: 600;
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.subscribe input[type="email"]{
+    margin-bottom: 16px;
+    padding: 22px 0 22px 22px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    width: 325px;
+    font-size: 18px;
+}
+.subscribe input::placeholder{
+    color: #8a8a8a;
+}
+.subscribe .btn-primary{
     background-color: #ffffff;
     color: #F15B22;
 }

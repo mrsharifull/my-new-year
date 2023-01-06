@@ -17,6 +17,10 @@ section{
     margin-bottom: 30px;
     text-align: center;
 }
+.section-description{
+    color: #444343;
+    margin-bottom: 16px;
+}
 .btn-primary{
     background-color: #F15B22;
     border-radius: 5px;
@@ -26,7 +30,7 @@ section{
     color: #ffffff;
     padding: 20px 25px;
 }
-/* header and banner styles */
+/* header and banner section styles */
 header{
     background-image: url(../images/banner/banner2.png);
     background-repeat: no-repeat;
@@ -56,7 +60,7 @@ header{
     margin-bottom: 30px;
     color: #444343;
 }
-/* My tours styles */
+/* My tours section styles */
 .tour-place{
     display: flex;
     gap:24px;
@@ -69,4 +73,27 @@ header{
 .image-caption{
     font-size: 18px;
     color: #7d7d7d;
+}
+/* my failures section styles */
+.my-failures{
+    display: flex;
+    gap: 85px;
+    align-items: center;
+}
+.my-failures .section-title{
+    text-align: left;
+}
+.failures-content{
+    padding-right: 60px;
+}
+.failures-content ul{
+    padding: 0;
+}
+.failures-content li{
+    list-style: none;
+    margin-bottom: 10px;
+    color: #444343;
+}
+.failures-content li i{
+    color: green;
 }

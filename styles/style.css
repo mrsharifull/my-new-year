@@ -1,0 +1,50 @@
+/* common styles */
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+main{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+section{
+    margin-top: 130px;
+}
+.btn-primary{
+    background-color: #F15B22;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    color: #ffffff;
+    padding: 20px 25px;
+}
+/* header and banner styles */
+header{
+    background-image: url(../images/banner/banner2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: gray;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.banner{
+    margin: 0 auto;
+}
+.banner-content{
+    text-align: right;
+    width: 45%;
+    margin-left: auto;
+    
+}
+.banner-title{
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+}
+.banner-description{
+    margin-bottom: 30px;
+    color: #444343;
+}

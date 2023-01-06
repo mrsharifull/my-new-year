@@ -10,6 +10,13 @@ main{
 section{
     margin-top: 130px;
 }
+.section-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 30px;
+    text-align: center;
+}
 .btn-primary{
     background-color: #F15B22;
     border-radius: 5px;
@@ -31,6 +38,7 @@ header{
 }
 .banner{
     margin: 0 auto;
+    max-width: 1150px;
 }
 .banner-content{
     text-align: right;
@@ -47,4 +55,18 @@ header{
 .banner-description{
     margin-bottom: 30px;
     color: #444343;
+}
+/* My tours styles */
+.tour-place{
+    display: flex;
+    gap:24px;
+}
+.tour-place-image{
+    height: 400px;
+    width: 367px;
+    border-radius: 5px;
+}
+.image-caption{
+    font-size: 18px;
+    color: #7d7d7d;
 }
